@@ -26,21 +26,21 @@
 ### Task 1: Content and static build
 **Files:** `scripts/build.py`, `site/content/*.json`, `site/templates/**/*.html`, `requirements.txt`, `tests/test_build.py`.
 **Interfaces:** `render_site(site_root: Path) -> dict[str, str]`; `build_site(site_root: Path, check: bool = False) -> None`.
-- [ ] Add failing integration tests for content editing, galleries, escaping, invalid content and deterministic output.
-- [ ] Migrate existing content and generate reusable templates, preserving non-catalogue blocks.
-- [ ] Implement validated rendering with Jinja2 StrictUndefined and path/link filters.
-- [ ] Run tests and compare content/DOM against the original.
+- [x] Add failing integration tests for content editing, galleries, escaping, invalid content and deterministic output.
+- [x] Migrate existing content and generate reusable templates, preserving non-catalogue blocks.
+- [x] Implement validated rendering with Jinja2 StrictUndefined and path/link filters.
+- [x] Run tests and compare content/DOM against the original.
 
 ### Task 2: Verification and publication pipeline
 **Files:** `scripts/verify.py`, `tests/test_verify.py`, `.github/workflows/pages.yml`, `scripts/package.py`.
 **Interfaces:** `verify_site(root: Path) -> list[str]`; package outputs only ready pages and assets.
-- [ ] Add failing tests for broken anchors, zoom images, duplicate IDs and gallery indices.
-- [ ] Strengthen verification and run checks against all four generated pages.
-- [ ] Configure Actions to install dependencies, test, build, verify and package before deployment.
+- [x] Add failing tests for broken anchors, zoom images, duplicate IDs and gallery indices.
+- [x] Strengthen verification and run checks against all four generated pages.
+- [x] Configure Actions to install dependencies, test, build, verify and package before deployment.
 
 ### Task 3: Editing guide and release
 **Files:** `README.md`, `docs/editing.md`, `AGENTS.md`, `.gitignore`.
-- [ ] Document commands and exact recipes for a new product, photograph, price and common contact edit.
-- [ ] Check desktop/mobile pages, navigation, sliders and zoom.
-- [ ] Inspect final diff and run full tests, build freshness and file verification.
-- [ ] Commit, push `origin main`, watch Pages workflow and smoke-test public routes.
+- [x] Document commands and exact recipes for a new product, photograph, price and common contact edit.
+- [x] Check desktop/mobile pages, navigation, sliders and zoom.
+- [x] Inspect final diff and run full tests, build freshness and file verification.
+- [x] Commit, push `origin main`, watch Pages workflow and smoke-test public routes.
