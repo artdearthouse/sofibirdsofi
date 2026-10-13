@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block assets %}
+<!-- Assets -->
+<script async="" charset="utf-8" src="{{ asset_prefix }}assets/ba24e7d54bf75f717d4a.js"></script>
+ <link href="{{ asset_prefix }}assets/2dad5d74f2210dea3b16.css" media="all" onerror="this.loaderr='y';" rel="stylesheet" type="text/css"/>
+<link href="{{ asset_prefix }}assets/42eb741a46e280696ab7.css" media="all" onerror="this.loaderr='y';" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="{{ asset_prefix }}assets/04b0f5dad7efc417016c.css" rel="stylesheet"/>
+<link href="{{ asset_prefix }}assets/9ad2aaa670e30c5c6616.css" media="all" onerror="this.loaderr='y';" rel="stylesheet" type="text/css"/>
+<link href="{{ asset_prefix }}assets/a205464376fd544bd0b9.css" media="all" onerror="this.loaderr='y';" rel="stylesheet" type="text/css"/>
+<link href="{{ asset_prefix }}assets/08b27799de76ec9aca7b.css" media="all" onerror="this.loaderr='y';" rel="stylesheet" type="text/css"/>
+<link href="{{ asset_prefix }}assets/4675c0faee209dc20792.css" media="all" onerror="this.loaderr='y';" rel="stylesheet" type="text/css"/>
+<link href="{{ asset_prefix }}assets/a033ed69e108262d0103.css" media="all" onerror="this.loaderr='y';" rel="stylesheet" type="text/css"/>
+<link href="{{ asset_prefix }}assets/c235758df30b082974e4.css" media="print" onerror="this.loaderr='y';" onload="this.media='all';" rel="stylesheet" type="text/css"/>
+<noscript>
+<link href="{{ asset_prefix }}assets/c235758df30b082974e4.css" media="all" rel="stylesheet" type="text/css"/>
+</noscript>
+<link href="{{ asset_prefix }}assets/0701c7c700c8a65d54bf.css" media="print" onerror="this.loaderr='y';" onload="this.media='all';" rel="stylesheet" type="text/css"/>
+<noscript>
+<link href="{{ asset_prefix }}assets/0701c7c700c8a65d54bf.css" media="all" rel="stylesheet" type="text/css"/>
+</noscript>
+<link href="{{ asset_prefix }}assets/0b1231e087250166e8d0.css" media="all" onerror="this.loaderr='y';" rel="stylesheet" type="text/css"/>
+<link href="{{ asset_prefix }}assets/ee87c6a8be31d22a627e.css" media="print" onerror="this.loaderr='y';" onload="this.media='all';" rel="stylesheet" type="text/css"/>
+<noscript>
+<link href="{{ asset_prefix }}assets/ee87c6a8be31d22a627e.css" media="all" rel="stylesheet" type="text/css"/>
+</noscript>
+<script charset="utf-8" nomodule="" src="{{ asset_prefix }}assets/92008040dc4ee03d5bb2.js"></script>
+ {% include 'components/bootstrap.html' %}
+<script charset="utf-8" defer="" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/15e96ba9726e28056961.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/f169293e4385d4a99469.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/8ae9a11fe6612fee4bb6.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/ca173629e86d5ee9a109.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/d55066a57f4e926f5728.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/1721a2f2a59498fa2955.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/7fba202a427237987b11.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/4dc1ea1435e53871f186.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/7b838b75576df5802ef8.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/7f4cca8d17a9b26990c3.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/e12253fb7636162a81e8.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/2ae5adf2b6fdd79ff6b8.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/ae632cb47bd10b75979a.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/e47ee1acca950278bfea.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/3ba36734c91cf0557a92.js"></script>
+
+<script async="" charset="utf-8" onerror="this.loaderr='y';" src="{{ asset_prefix }}assets/ae4f9e9dd6a58b6faef6.js"></script>
+ {% include 'components/data-layer.html' %} {% include 'components/appear.html' %}
+{% endblock %}
+
+{% block records %}
+<div class="t-records" data-hook="blocks-collection-content-node" data-tilda-cookie="no" data-tilda-formskey="09f115cde46dd8782d05401633340709" data-tilda-lazy="yes" data-tilda-page-id="201152809" data-tilda-project-country="RU" data-tilda-project-id="33340709" data-tilda-root-zone="com" id="allrecords">{% for section in page.sections %}{% include section.template if section.type == 'section' else 'components/' ~ section.type ~ '.html' %}{% endfor %}</div>
+{% endblock %}

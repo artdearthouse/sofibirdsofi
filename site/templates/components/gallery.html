@@ -1,0 +1,40 @@
+<div class="r t-rec t-rec_pt_90 t-rec_pb_90" data-animationappear="off" data-record-type="670" id="rec{{ section.id }}" style="padding-top:90px;padding-bottom:90px; ">
+<!-- T670 -->
+<div class="t670">
+<div class="t-slds" style="visibility: hidden;">
+<div class="t-container t-slds__main">
+<ul class="t-slds__arrow_container t-slds__arrow_container-outside">
+<li class="t-slds__arrow_wrapper t-slds__arrow_wrapper-left" data-slide-direction="left">
+<button aria-controls="carousel_{{ section.id }}" aria-disabled="false" aria-label="Предыдущий слайд" class="t-slds__arrow t-slds__arrow-left t-slds__arrow-withbg" style="width: 40px; height: 40px;background-color: rgba(232,232,232,1);" type="button">
+<div class="t-slds__arrow_body t-slds__arrow_body-left" style="width: 9px;">
+<svg focusable="false" role="presentation" style="display: block" viewbox="0 0 9.3 17" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<polyline fill="none" points="0.5,0.5 8.5,8.5 0.5,16.5" stroke="#000000" stroke-linecap="butt" stroke-linejoin="butt" stroke-width="1">
+</polyline>
+</svg>
+</div>
+</button>
+</li>
+<li class="t-slds__arrow_wrapper t-slds__arrow_wrapper-right" data-slide-direction="right">
+<button aria-controls="carousel_{{ section.id }}" aria-disabled="false" aria-label="Следующий слайд" class="t-slds__arrow t-slds__arrow-right t-slds__arrow-withbg" style="width: 40px; height: 40px;background-color: rgba(232,232,232,1);" type="button">
+<div class="t-slds__arrow_body t-slds__arrow_body-right" style="width: 9px;">
+<svg focusable="false" role="presentation" style="display: block" viewbox="0 0 9.3 17" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<polyline fill="none" points="0.5,0.5 8.5,8.5 0.5,16.5" stroke="#000000" stroke-linecap="butt" stroke-linejoin="butt" stroke-width="1">
+</polyline>
+</svg>
+</div>
+</button>
+</li>
+</ul>
+<div class="t-slds__container t-width t-width_9 t-margin_auto">
+<div aria-live="off" aria-roledescription="carousel" class="t-slds__items-wrapper t-slds__witharrows t-slds_animated-none" data-auto-correct-mobile-width="false" data-slider-arrows-nearpic="yes" data-slider-correct-height="true" data-slider-transition="300" data-slider-with-cycle="true" id="carousel_{{ section.id }}">{% for image in section.images %}{% set slide_loop = loop %}{% include 'components/portfolio-slide.html' %}{% endfor %}</div>
+</div>
+<ul class="t-slds__bullet_wrapper">{% for image in section.images %}{% set slide_loop = loop %}{% include 'components/portfolio-bullet.html' %}{% endfor %}</ul>
+<div class="t-slds__caption__container">
+</div>
+</div>
+</div>
+</div>
+<script>t_onReady(function() {t_onFuncLoad('t670_init',function() {t670_init('{{ section.id }}',false);});});</script>
+
+<style>#rec{{ section.id }} .t-slds__bullet_active .t-slds__bullet_body{background-color:#222 !important;}#rec{{ section.id }} .t-slds__bullet:hover .t-slds__bullet_body{background-color:#222 !important;}</style>
+ </div>

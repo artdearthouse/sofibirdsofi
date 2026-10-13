@@ -1,0 +1,13 @@
+<div aria-hidden="false" aria-label="{{ slide_loop.index }} из {{ section.images|length }}" aria-roledescription="slide" class="t-slds__item{% if slide_loop.first %} t-slds__item_active{% endif %}" data-slide-index="{{ slide_loop.index }}" role="group">
+<div class="t-width t-width_9 t-margin_auto" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="t-slds__wrapper t-align_center">
+<meta content="{{ image.src|asset }}" itemprop="image"/>
+<div bgimgfield="gi_img__{{ slide_loop.index0 }}" class="t670__imgwrapper">
+<div class="t-slds__bgimg t-bgimg" data-original="{{ image.src|asset }}" style="background-image: url('{{ image.preview|default(image.src)|asset }}');">
+</div>
+<div class="t670__separator" data-slider-image-height="550px" data-slider-image-width="860">
+</div>
+</div>
+</div>
+</div>
+</div>

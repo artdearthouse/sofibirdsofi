@@ -1,0 +1,35 @@
+<div class="r t-rec t-rec_pt_{{ section.space_top }} t-rec_pb_0" data-animationappear="off" data-record-type="744" id="rec{{ section.id }}" style="padding-top:{{ section.space_top }}px;padding-bottom:0px;--product-button-color:{{ section.button_color }};--product-description-size:{{ section.description_size }}px;">
+<!-- t744 -->
+<div class="t744">
+<div class="t-container js-product js-product-single">
+<div class="t744__col t744__col_first t-col t-col_6">
+<!-- gallery --> {% include 'components/product-gallery.html' %} <!--/gallery -->
+</div>
+<div class="t744__col t-col t-col_6">
+<div class="t744__info">
+<div class="t744__textwrapper">
+<div class="t744__title-wrapper">
+<div class="t744__title t-name t-name_xl js-product-name" field="title">{{ section.title }}</div> {% if section.subtitle_html %}<div class="t744__title_small t-descr t-descr_xxs" field="title2">{{ section.subtitle_html|rich }}</div>{% endif %} </div>
+<div class="t744__price-wrapper">
+<div class="t744__price t744__price-item t-name t-name_md">
+<div class="t744__price-currency js-product-price-currency">{{ section.currency }}</div>
+<div class="t744__price-value js-product-price notranslate" data-redactor-toolbar="no" field="price" translate="no">{{ section.price }}</div>
+</div>
+</div>
+<div class="js-product-controls-wrapper">
+</div>
+<div class="t744__btn-wrapper t1002__btns-wrapper">
+<a class="t-btn t-btnflex t-btnflex_type_button t-btnflex_sm t744__btn" href="{{ section.button.href|link_url }}" target="_blank">
+<span class="t-btnflex__icon t-btnflex__icon_default_glyph" style="--icon:url('{{ 'assets/971e8c47b4ffdf817cc2.svg'|asset }}');">
+</span>
+<span class="t-btnflex__text">{{ section.button.label }}</span>
+</a>
+</div>
+<div class="t744__descr t-descr t-descr_xxs" field="descr">{{ section.description_html|rich }}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">t_onReady(function() {t_onFuncLoad('t744_init',function() {t744_init('{{ section.id }}');});});</script>
+   </div>

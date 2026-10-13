@@ -1,0 +1,27 @@
+/* Site-owned overrides. Keep vendor files unchanged. */
+@media screen and (min-width: 900px) {
+  #allrecords .t744__title { font-size: 32px; }
+}
+#allrecords .t744__price,
+#allrecords .t744__price_old { font-size: 22px; }
+#allrecords .t744__descr { font-size: var(--product-description-size, 20px); }
+#allrecords .t744 .t-btnflex.t-btnflex_type_button {
+  color: #fff;
+  background-color: var(--product-button-color, #ff623b);
+  --border-width: 0px;
+  border-style: none !important;
+  border-radius: 7px;
+  box-shadow: none !important;
+  transition-duration: 0.2s;
+  transition-property: background-color, color, border-color, box-shadow, opacity, transform, gap;
+  transition-timing-function: ease-in-out;
+}
+@media (hover: hover) {
+  #allrecords .t744 .t-btnflex.t-btnflex_type_button:not(.t-animate_no-hover):hover,
+  #allrecords .t744 .t-btnflex.t-btnflex_type_button:not(.t-animate_no-hover):focus-visible {
+    background-color: #ff5429 !important;
+  }
+}
+#allrecords .t744 .t-slds__bullet_active .t-slds__bullet_body,
+#allrecords .t744 .t-slds__bullet:hover .t-slds__bullet_body,
+#allrecords .t744 .t-slds__bullet_body:focus-visible { background-color: #222 !important; }

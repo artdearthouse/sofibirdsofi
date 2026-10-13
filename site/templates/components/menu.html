@@ -1,0 +1,55 @@
+<div class="r t-rec" data-animationappear="off" data-parenttplid="1272" data-record-type="2083" id="rec{{ section.id }}" style=" ">
+<!-- T1272 -->
+<div id="nav{{ section.id }}marker">
+</div>
+<div class="t1272" data-full-submenu-mob="y" data-menu="yes">
+<div class="t-menu-base__mobile-menu tmenu-mobile tmenu-mobile_positionfixed">
+<div class="tmenu-mobile__container tmenu-mobile__container_right tmenu-mobile__container_logoleft tmenu-mobile__container_withoutlogo">
+<div class="tmenu-mobile__text t-name t-name_md" field="menu_mob_title">
+</div>
+<button aria-expanded="false" aria-label="Навигационное меню" class="t-menu-burger t-menuburger t-menu-base__burger_mlauto" type="button">
+<div class="t-menu-burger__icon t-menu-burger__icon_first">
+<span style="background-color: #ffffff;">
+</span>
+<span style="background-color: #ffffff;">
+</span>
+<span style="background-color: #ffffff;">
+</span>
+<span style="background-color: #ffffff;">
+</span>
+</div>
+</button>
+<style>#rec{{ section.id }} .t-menu-burger__text{color:#ffffff;}</style>
+ </div>
+</div>
+<style>.tmenu-mobile{background-color:#111;display:none;width:100%;top:0;z-index:990;}.tmenu-mobile_positionfixed{position:fixed;}.tmenu-mobile__text{color:#000;}.tmenu-mobile__container{min-height:64px;padding:20px;position:relative;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;}.tmenu-mobile__list{display:block;}.tmenu-mobile__container_logocenter>.t-menu-base__logowrapper,.tmenu-mobile__container_logocenter>.tmenu-mobile__text{position:absolute;left:50%;transform:translateX(-50%);}.tmenu-mobile__burgerlogo{display:inline-block;font-size:24px;font-weight:400;white-space:nowrap;vertical-align:middle;}@media screen and (max-width:960px){.tmenu-mobile__menucontent_hidden{display:none;height:auto;}.tmenu-mobile{display:block;}}@media screen and (max-width:960px){ #rec{{ section.id }} .tmenu-mobile{background-color:#0d0d0d;}#rec{{ section.id }} .t-menu-base.tmenu-mobile__menucontent_fixed{position:fixed;top:64px;}}</style>
+
+<style>#rec{{ section.id }} .tmenu-mobile__burgerlogo a{color:#ffffff;}</style>
+
+<style>#rec{{ section.id }} .tmenu-mobile__burgerlogo__title{color:#ffffff;}</style>
+ <div class="t-menu-base t-menu-base_positionfixed tmenu-mobile__menucontent_hidden tmenu-mobile__menucontent_fixed t-menu-base_mobile-center t-menu-base__burgermenu__dropdown t-menu-base__burgermenu__dropdown_right" data-appearoffset="" data-bgcolor-hex="#ff8562" data-bgcolor-rgba="rgba(255,133,98,0.60)" data-bgcolor-rgba-afterscroll="rgba(255,133,98,0.80)" data-bgopacity="0.6" data-bgopacity-two="0.8" data-menu="yes" data-menushadow="" data-menushadow-css="" data-navmarker="nav{{ section.id }}marker" id="nav{{ section.id }}">
+<div class="t-menu-base__maincontainer t-menu-base__maincontainer_12 t-menu-base__maincontainer_12-0 t-menu-base__maincontainer_logoleft">
+<div class="t-menu-base__leftwrapper t-menu-base__wrapper t-menu-base__leftwrapper_left t-menu-base__leftwrapper_nologo" style="">
+<ul class="t-menu-base__list t-menu__list" role="list">{% for link in section.links %}<li class="t-menu-base__list-item"> <div class="t-menu__link-wrapper" data-menu-submenu-hook=""> <a class="t-menu__link-item" data-menu-item-number="{{ loop.index }}" href="{{ link.href|link_url }}">{{ link.label }}</a> </div> </li>{% endfor %}</ul>
+</div>
+<div class="t-menu-base__rightwrapper t-menu-base__wrapper" style="">
+<div class="t-menu-base__additionalwrapper">
+<div class="t-sociallinks">
+<ul aria-label="Social media links" class="t-sociallinks__wrapper" role="list">
+<!-- new soclinks --><li class="t-sociallinks__item t-sociallinks__item_twitter"><a aria-label="twitter" href="{{ common.links.twitter }}" rel="nofollow" style="width: 30px; height: 30px;" target="_blank"><svg class="t-sociallinks__svg" height="30px" role="presentation" viewbox="0 0 48 48" width="30px" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_3697_102)"><path clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48ZM33.3482 14L25.9027 22.4686H25.9023L34 34H28.0445L22.5915 26.2348L15.7644 34H14L21.8082 25.1193L14 14H19.9555L25.119 21.3532L31.5838 14H33.3482ZM22.695 24.1101L23.4861 25.2173V25.2177L28.8746 32.7594H31.5847L24.9813 23.5172L24.1902 22.4099L19.1103 15.2997H16.4002L22.695 24.1101Z" fill="#ffffff" fill-rule="evenodd"></path></g><defs><clippath id="clip0_3697_102"><rect fill="white" height="48" width="48"></rect></clippath></defs></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_instagram"><a aria-label="instagram" href="{{ common.links.instagram }}" rel="nofollow" style="width: 30px; height: 30px;" target="_blank"><svg class="t-sociallinks__svg" fill="none" height="30px" role="presentation" viewbox="0 0 100 100" width="30px" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM25 39.3918C25 31.4558 31.4566 25 39.3918 25H60.6082C68.5442 25 75 31.4566 75 39.3918V60.8028C75 68.738 68.5442 75.1946 60.6082 75.1946H39.3918C31.4558 75.1946 25 68.738 25 60.8028V39.3918ZM36.9883 50.0054C36.9883 42.8847 42.8438 37.0922 50.0397 37.0922C57.2356 37.0922 63.0911 42.8847 63.0911 50.0054C63.0911 57.1252 57.2356 62.9177 50.0397 62.9177C42.843 62.9177 36.9883 57.1252 36.9883 50.0054ZM41.7422 50.0054C41.7422 54.5033 45.4641 58.1638 50.0397 58.1638C54.6153 58.1638 58.3372 54.5041 58.3372 50.0054C58.3372 45.5066 54.6145 41.8469 50.0397 41.8469C45.4641 41.8469 41.7422 45.5066 41.7422 50.0054ZM63.3248 39.6355C65.0208 39.6355 66.3956 38.2606 66.3956 36.5646C66.3956 34.8687 65.0208 33.4938 63.3248 33.4938C61.6288 33.4938 60.2539 34.8687 60.2539 36.5646C60.2539 38.2606 61.6288 39.6355 63.3248 39.6355Z" fill="#ffffff" fill-rule="evenodd"></path></svg></a></li><li class="t-sociallinks__item t-sociallinks__item_tiktok"><a aria-label="tiktok" href="{{ common.links.tiktok }}" rel="nofollow" style="width: 30px; height: 30px;" target="_blank"><svg class="t-sociallinks__svg" fill="none" height="30px" role="presentation" viewbox="0 0 100 100" width="30px" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm5.495-74.986c-1.555.002-3.113.004-4.676.028l.001.002c-.04 5.37-.038 10.742-.035 16.12.001 3.007.003 6.015-.004 9.026-.006 1.01-.005 2.019-.004 3.027.002 2.712.005 5.421-.144 8.138-.022.754-.4 1.417-.767 2.06l-.088.154c-1.212 1.977-3.442 3.327-5.769 3.352-3.51.31-6.797-2.563-7.292-5.982-.004-.167-.01-.336-.016-.505-.034-.964-.069-1.948.298-2.846.522-1.482 1.524-2.791 2.843-3.646 1.806-1.255 4.222-1.442 6.29-.773 0-1.318.022-2.636.044-3.953.03-1.767.06-3.534.036-5.303-4.525-.846-9.358.585-12.808 3.59-3.044 2.58-5.005 6.372-5.38 10.336a34.879 34.879 0 0 0 .025 3.1c.431 4.876 3.392 9.418 7.6 11.9 2.54 1.496 5.516 2.309 8.496 2.139 4.858-.082 9.588-2.686 12.313-6.682 1.694-2.4 2.655-5.299 2.818-8.211.042-4.001.04-8.01.036-12.023 0-2.068-.002-4.138.003-6.208 1.082.708 2.189 1.4 3.376 1.938 2.727 1.293 5.746 1.919 8.75 2.017v-8.39c-3.206-.357-6.501-1.415-8.83-3.726-2.335-2.255-3.482-5.504-3.646-8.693-1.156.01-2.312.012-3.47.014Z" fill="#ffffff" fill-rule="evenodd"></path></svg></a></li><!-- /new soclinks -->
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>t_onReady(function() {t_onFuncLoad('t_menuBase__interactFromKeyboard',function() {t_menuBase__interactFromKeyboard('{{ section.id }}');});t_onFuncLoad('t1272_init',function() {t1272_init('{{ section.id }}');});t_onFuncLoad('t_menuBase__setBGcolor',function() {t_menuBase__setBGcolor('{{ section.id }}','.t-menu-base, .t-menu-base__maincontainer');window.addEventListener('resize',t_throttle(function() {t_menuBase__setBGcolor('{{ section.id }}','.t-menu-base, .t-menu-base__maincontainer');}));});});t_onReady(function() {t_onFuncLoad('t1272_createMobileMenu',function() {t1272_createMobileMenu('{{ section.id }}');});});t_onReady(function() {t_onFuncLoad('t_menuBase__highlightActiveLinks',function() {t_menuBase__highlightActiveLinks('.t-menu-base__list-item a');});t_onFuncLoad('t_menuBase__findAnchorLinks',function() {t_menuBase__findAnchorLinks('{{ section.id }}','.t-menu-base__list-item a');});});t_onReady(function(){var rec=document.querySelector('#rec{{ section.id }}');if(!rec) return
+rec.setAttribute('data-animationappear','off');rec.style.opacity=1;});t_onReady(function() {var bgSelector='.t-menu-base, .t-menu-base__maincontainer';t_onFuncLoad('t_menuBase__changeBgOpacity',function() {t_menuBase__changeBgOpacity('{{ section.id }}',bgSelector);window.addEventListener('scroll',t_throttle(function() {t_menuBase__changeBgOpacity('{{ section.id }}',bgSelector);}));});});</script>
+
+<style>#rec{{ section.id }} .t-menu__link-item{}@supports (overflow:-webkit-marquee) and (justify-content:inherit){ #rec{{ section.id }} .t-menu__link-item,#rec{{ section.id }} .t-menu__link-item.t-active{opacity:1 !important;}}</style>
+
+<style>#rec{{ section.id }} .t-menu-base__textlogo{color:#ffffff;}#rec{{ section.id }} a.t-menu__link-item{font-size:16px;color:#ffffff;}#rec{{ section.id }} .t-menu-base__right_descr{font-size:16px;color:#ffffff;font-weight:600;}</style>
+
+<style>#rec{{ section.id }} .t-menu-base__maincontainer{min-height:60px;}#rec{{ section.id }} .t-menu-base{min-height:60px;}#rec{{ section.id }} .t-menu-base{background-color:rgba(255,133,98,0.60);}#rec{{ section.id }} .t-menusub__menu--fullscreen{background-color:rgba(13,13,13,1) !important;}@media screen and (max-width:960px){ #rec{{ section.id }} .t-menu-base__maincontainer{background-color:#0d0d0d !important;}#rec{{ section.id }} .t-menu-base__burgermenu__fullscreen .t-menu-base__maincontainer{padding-top:calc(64px + 0px + 40px);}.t1272__body_menushowed #rec{{ section.id }} .t-menu-base__overlay{-webkit-backdrop-filter:blur(0);backdrop-filter:blur(0);background-color:rgba(0,0,0,0.6) !important;}#rec{{ section.id }} .t-menu-base.t-menu-base__burgermenu__fullwidth{background-color:rgba(0,0,0,0.6) !important;}#rec{{ section.id }} .t-menu-base__burgermenu__sidebar{}#rec{{ section.id }} .t-menu-base__maincontainer.t-menu-base__burgermenu__fullscreen,#rec{{ section.id }} .t-menu-base__maincontainer.t-menu-base__burgermenu__sidebar{min-height:calc(100vh - 60px);}#rec{{ section.id }} .t-menu-base{right:0;}#rec{{ section.id }} .t-menu-base__burgermenu,#rec{{ section.id }} .t-menu-base__burgermenu__close-button{background-color:#0d0d0d !important;}}</style>
+ </div>

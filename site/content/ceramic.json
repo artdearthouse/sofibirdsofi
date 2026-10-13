@@ -1,0 +1,155 @@
+{
+  "title": "ceramics",
+  "description": "",
+  "social_image": "assets/b45aad5743585235c0c6.jpeg",
+  "sections": [
+    {
+      "id": "4056523701",
+      "type": "menu",
+      "links": [
+        {
+          "label": "who am I",
+          "href": "#about"
+        },
+        {
+          "label": "donation",
+          "href": "@donation"
+        }
+      ]
+    },
+    {
+      "id": "4056523901",
+      "type": "section",
+      "template": "sections/introduction.html",
+      "fields": {
+        "title_html": "\nI hope one of them finds a home with you and brings you a little happiness every day &lt;3\n",
+        "descr_html": "\neach of these tiny birds was made by hand, glazed, and fired twice in the kiln! they are small ceramic creatures with their own little personalities — no two are exactly the same💛\n"
+      },
+      "images": [],
+      "name": "introduction"
+    },
+    {
+      "id": "4056524101",
+      "type": "product",
+      "title": "my favorite baby💖",
+      "subtitle_html": "",
+      "price": "87",
+      "currency": "€",
+      "description_html": "cute and shiny",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/48c77d56ce4b1aadd235.jpeg",
+          "preview": "assets/a2294f09daf76d95c862.jpeg"
+        }
+      ],
+      "space_top": 165,
+      "button_color": "#ff623b",
+      "description_size": 20
+    },
+    {
+      "id": "4056524201",
+      "type": "product",
+      "title": "incense holder🌱",
+      "subtitle_html": "",
+      "price": "52",
+      "currency": "€",
+      "description_html": "a serene bird",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/28510f47df89632d725e.jpeg",
+          "preview": "assets/94624edfac3e1f6bb044.jpeg"
+        }
+      ],
+      "space_top": 120,
+      "button_color": "#ff8562",
+      "description_size": 20
+    },
+    {
+      "id": "4056524301",
+      "type": "product",
+      "title": "the sun bird🍊",
+      "subtitle_html": "",
+      "price": "43",
+      "currency": "€",
+      "description_html": "looking for the sun",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/b5bba342cd230ba28a69.jpeg",
+          "preview": "assets/0747cddfaf79ee04af11.jpeg"
+        }
+      ],
+      "space_top": 165,
+      "button_color": "#ff623b",
+      "description_size": 20
+    },
+    {
+      "id": "4056524401",
+      "type": "product",
+      "title": "a stand for small plant arrangements🌷",
+      "subtitle_html": "",
+      "price": "40",
+      "currency": "€",
+      "description_html": "there is a mounting bracket on the back so you can hang it on the wall<br/><br/>",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/3062bbdc2570bf7b9fd7.jpeg",
+          "preview": "assets/075f621f9fa39b92239d.jpeg"
+        }
+      ],
+      "space_top": 120,
+      "button_color": "#ff8562",
+      "description_size": 20
+    },
+    {
+      "id": "4057657301",
+      "type": "product",
+      "title": "a small brooch🪻",
+      "subtitle_html": "",
+      "price": "37",
+      "currency": "€",
+      "description_html": "there is a fastener on the back ",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/0f164dcc1a34d0585b3b.jpeg",
+          "preview": "assets/78a66adb7066eeba8e0d.jpeg"
+        }
+      ],
+      "space_top": 120,
+      "button_color": "#ff8562",
+      "description_size": 20
+    },
+    {
+      "id": "4056524901",
+      "type": "section",
+      "template": "sections/anchor.html",
+      "fields": {},
+      "images": [],
+      "name": "anchor-about",
+      "anchor": "about"
+    },
+    {
+      "id": "4672424201",
+      "type": "about"
+    }
+  ]
+}

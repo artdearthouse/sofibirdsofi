@@ -1,0 +1,26 @@
+<div class="t-slds" style="visibility: hidden;">
+<div class="t-slds__main">
+<div class="t-slds__container">
+<div class="t-slds__items-wrapper t-slds_animated-none" data-auto-correct-mobile-width="false" data-slider-correct-height="true" data-slider-transition="300" data-slider-with-cycle="true">{% for image in section.images %}{% set slide_loop = loop %}{% include 'components/product-slide.html' %}{% endfor %}</div> {% if section.images|length > 1 %}<div class="t-slds__arrow_container">
+<li class="t-slds__arrow_wrapper t-slds__arrow_wrapper-left" data-slide-direction="left">
+<button aria-controls="carousel_{{ section.id }}" aria-disabled="false" aria-label="Предыдущий слайд" class="t-slds__arrow t-slds__arrow-left t-slds__arrow-withbg" style="width: 30px; height: 30px;background-color: rgba(255,255,255,1);" type="button">
+<div class="t-slds__arrow_body t-slds__arrow_body-left" style="width: 7px;">
+<svg focusable="false" role="presentation" style="display: block" viewbox="0 0 7.3 13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<polyline fill="none" points="0.5,0.5 6.5,6.5 0.5,12.5" stroke="#222" stroke-linecap="butt" stroke-linejoin="butt" stroke-width="1">
+</polyline>
+</svg>
+</div>
+</button>
+</li>
+<li class="t-slds__arrow_wrapper t-slds__arrow_wrapper-right" data-slide-direction="right">
+<button aria-controls="carousel_{{ section.id }}" aria-disabled="false" aria-label="Следующий слайд" class="t-slds__arrow t-slds__arrow-right t-slds__arrow-withbg" style="width: 30px; height: 30px;background-color: rgba(255,255,255,1);" type="button">
+<div class="t-slds__arrow_body t-slds__arrow_body-right" style="width: 7px;">
+<svg focusable="false" role="presentation" style="display: block" viewbox="0 0 7.3 13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<polyline fill="none" points="0.5,0.5 6.5,6.5 0.5,12.5" stroke="#222" stroke-linecap="butt" stroke-linejoin="butt" stroke-width="1">
+</polyline>
+</svg>
+</div>
+</button>
+</li>
+</div>{% endif %} </div>
+</div> {% if section.images|length > 1 %}<div class="t-slds__thumbsbullet-wrapper">{% for image in section.images %}{% set slide_loop = loop %}{% include 'components/product-thumbnail.html' %}{% endfor %}</div>{% endif %} </div>

@@ -1,0 +1,49 @@
+<div class="r t-rec" data-animationappear="off" data-record-type="205" id="rec{{ section.id }}" style=" ">
+<!-- cover -->
+<div bgimgfield="img" class="t-cover" id="recorddiv{{ section.id }}" style="height:100vh;background-image:url('{{ section.images[0].preview|asset }}');">
+<div class="t-cover__carrier" data-content-cover-bg="{{ section.images[0].src|asset }}" data-content-cover-height="100vh" data-content-cover-id="{{ section.id }}" data-content-cover-parallax="" data-content-use-image-for-mobile-cover="" data-display-changed="true" id="coverCarry{{ section.id }}" itemscope="" itemtype="http://schema.org/ImageObject" style="height:100vh;background-attachment:scroll; ">
+<meta content="{{ section.images[0].src|asset }}" itemprop="image"/>
+</div>
+<div class="t-cover__filter" style="height:100vh;background-image: linear-gradient(to bottom, rgba(0,5,84,0.20), rgba(51,118,136,0.40));">
+</div>
+<div class="t-container">
+<div class="t-width t-width_7" style="margin:0 auto;">
+<div class="t-cover__wrapper t-valign_middle" style="height:100vh; position: relative;z-index:1;">
+<div class="t182">
+<div data-hook-content="covercontent">
+<div class="t182__wrapper">
+<div class="t182__content-wrapper">
+<div class="t182__title t-title t-title_xl" field="title">{{ section.fields.title_html|rich }}</div>
+<div class="t182__descr t-descr t-descr_lg" field="descr">{{ section.fields.descr_html|rich }}</div>
+<div class="t182__buttons">
+<a class="t-btn t-btnflex t-btnflex_type_button t-btnflex_md" href="{{ section.buttons[0].href|link_url }}" target="_blank">
+<span class="t-btnflex__icon t-btnflex__icon_default_glyph" style="--icon:url('{{ asset_prefix }}assets/971e8c47b4ffdf817cc2.svg');">
+</span>
+<span class="t-btnflex__text">{{ section.buttons[0].label }}</span>
+<style>#rec{{ section.id }} .t-btnflex.t-btnflex_type_button{color:#ffffff;background-color:#ff623b;--border-width:0px;border-style:none !important;border-radius:7px;box-shadow:none !important;white-space:normal;transition-duration:0.2s;transition-property:background-color,color,border-color,box-shadow,opacity,transform,gap;transition-timing-function:ease-in-out;}@media (hover:hover){ #rec{{ section.id }} .t-btnflex.t-btnflex_type_button:not(.t-animate_no-hover):hover{background-color:#ff5429 !important;}#rec{{ section.id }} .t-btnflex.t-btnflex_type_button:not(.t-animate_no-hover):focus-visible{background-color:#ff5429 !important;}}</style>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- arrow -->
+<div class="t-cover__arrow">
+<div class="t-cover__arrow-wrapper t-cover__arrow-wrapper_animated">
+<div class="t-cover__arrow_mobile">
+<svg class="t-cover__arrow-svg" height="18.592px" role="presentation" style="enable-background:new 0 0 38.417 18.592;" viewbox="0 0 38.417 18.592" width="38.417px" x="0px" y="0px">
+<g>
+<path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z">
+</path>
+</g>
+</svg>
+</div>
+</div>
+</div>
+<!-- arrow -->
+</div>
+<style>#rec{{ section.id }} .t182__title{font-weight:600;}#rec{{ section.id }} .t182__descr{opacity:1;}</style>
+ </div>

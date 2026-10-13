@@ -1,0 +1,20 @@
+{
+  "base_url": "https://artdearthouse.github.io/sofibirdsofi/",
+  "links": {
+    "bluesky": "https://bsky.app/profile/softbirdsofi.bsky.social",
+    "donation": "https://app.lava.top/softbird?tabId=donate",
+    "twitter": "https://x.com/softbirdsofi?s=11",
+    "instagram": "https://www.instagram.com/softbirdsofi?stkn=MXVhMjQwMGh0eHVpOA%3D%3D&utm_source=qr",
+    "tiktok": "https://www.tiktok.com/@softbirdsofi?_r=1&_t=ZN-99eStKVOXXH"
+  },
+  "about": {
+    "text_html": "I’m traveling in search of myself and a place to call home. I pour my heart into my creative work and share a piece of myself with the world<br/>My dream is to make a living doing what I love and to find peace in a safe place - somewhere I’ll finally feel at home<br/><br/>If you’d like to support me and my little creative world, you can leave a donation🌈 <a href=\"@donation\" rel=\"noreferrer noopener\" target=\"_blank\">here</a><br/><br/>",
+    "title": "hey! I’m Sofi <3",
+    "description": "thank you for paying attention to my creations :)",
+    "image": {
+      "src": "assets/b838b52fb7be1040fd30.png",
+      "preview": "assets/0b5ddb179ecdcba00010.png",
+      "alt": "Sofi, creator of SofiBirdPlush"
+    }
+  }
+}

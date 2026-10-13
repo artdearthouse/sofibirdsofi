@@ -1,0 +1,161 @@
+{
+  "title": "prints",
+  "description": "",
+  "social_image": "assets/b45aad5743585235c0c6.jpeg",
+  "sections": [
+    {
+      "id": "4672211601",
+      "type": "menu",
+      "links": [
+        {
+          "label": "who am I",
+          "href": "#about"
+        },
+        {
+          "label": "donation",
+          "href": "@donation"
+        }
+      ]
+    },
+    {
+      "id": "4672211701",
+      "type": "section",
+      "template": "sections/introduction.html",
+      "fields": {
+        "title_html": "\nprints &amp; paper goods\n",
+        "descr_html": "\nhere you’ll find my postcards, posters, and a few little stickers — small pieces of my art to keep, send, or add to your order<br/>they’re my little drawings, made to bring a bit of joy to everyday life 💛\n"
+      },
+      "images": [],
+      "name": "introduction"
+    },
+    {
+      "id": "4672211801",
+      "type": "product",
+      "title": "postcards",
+      "subtitle_html": "",
+      "price": "10",
+      "currency": "€",
+      "description_html": "single-sided postcards, printed on thick paper",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/291e69dbbd09a7d1c153.jpeg",
+          "preview": "assets/eecd713e1e461f5ce46d.jpeg"
+        },
+        {
+          "src": "assets/9b9ed69d070aa2d4c8c5.jpeg",
+          "preview": "assets/5381a686c2a50381309f.jpeg"
+        },
+        {
+          "src": "assets/1f8a8a1271a7336cbd0a.jpeg",
+          "preview": "assets/ca44faa70d77e0e29279.jpeg"
+        },
+        {
+          "src": "assets/28d3dc7f2e398c202335.jpeg",
+          "preview": "assets/7baca41928cf7d1c5f3e.jpeg"
+        },
+        {
+          "src": "assets/cc86327c70fcc7cdd357.jpeg",
+          "preview": "assets/463a48149cc2fb601cad.jpeg"
+        },
+        {
+          "src": "assets/aa7339d42bd396770874.jpeg",
+          "preview": "assets/f29f3ee4dda78fc81395.jpeg"
+        },
+        {
+          "src": "assets/11eb687274e220b9953a.jpeg",
+          "preview": "assets/c44f9ebcfe475cd1b364.jpeg"
+        }
+      ],
+      "space_top": 165,
+      "button_color": "#ff623b",
+      "description_size": 20
+    },
+    {
+      "id": "4672211901",
+      "type": "product",
+      "title": "sticker pack",
+      "subtitle_html": "",
+      "price": "15",
+      "currency": "€",
+      "description_html": "a little set of bird stickers — perfect for notebooks, laptops, letters, and everyday things",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/7ae251c4e0495dde416c.jpeg",
+          "preview": "assets/01bd1c7f4aeeada22390.jpeg"
+        }
+      ],
+      "space_top": 120,
+      "button_color": "#ff8562",
+      "description_size": 20
+    },
+    {
+      "id": "4672212001",
+      "type": "product",
+      "title": "tiny, shiny stickers✨",
+      "subtitle_html": "",
+      "price": "5",
+      "currency": "€",
+      "description_html": "a lovely little addition to your order",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/8380a1e9c9fd2e76434c.jpeg",
+          "preview": "assets/2e490014c83966022cae.jpeg"
+        },
+        {
+          "src": "assets/2cded241d621f36d55b5.jpeg",
+          "preview": "assets/1a07147efad10377fd75.jpeg"
+        }
+      ],
+      "space_top": 165,
+      "button_color": "#ff623b",
+      "description_size": 20
+    },
+    {
+      "id": "4672399701",
+      "type": "product",
+      "title": "poster ",
+      "subtitle_html": "",
+      "price": "20",
+      "currency": "€",
+      "description_html": "single-sided A4 print",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/32992a9059b28ad45710.jpeg",
+          "preview": "assets/1c0f3f621f9bf4e82a4e.jpeg"
+        }
+      ],
+      "space_top": 165,
+      "button_color": "#ff623b",
+      "description_size": 20
+    },
+    {
+      "id": "4672212301",
+      "type": "section",
+      "template": "sections/anchor.html",
+      "fields": {},
+      "images": [],
+      "name": "anchor-about",
+      "anchor": "about"
+    },
+    {
+      "id": "4752280901",
+      "type": "about"
+    }
+  ]
+}

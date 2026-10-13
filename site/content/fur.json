@@ -1,0 +1,89 @@
+{
+  "title": "fur",
+  "description": "",
+  "social_image": "assets/b45aad5743585235c0c6.jpeg",
+  "sections": [
+    {
+      "id": "4090411901",
+      "type": "menu",
+      "links": [
+        {
+          "label": "who am I",
+          "href": "#about"
+        },
+        {
+          "label": "donation",
+          "href": "@donation"
+        }
+      ]
+    },
+    {
+      "id": "4090412001",
+      "type": "section",
+      "template": "sections/introduction.html",
+      "fields": {
+        "title_html": "\nplushies!\n",
+        "descr_html": "\nsoft, gentle, and a little bit magical — these are my handmade plush friends:) from time to time, I’ll add the little ones I’ve already made to the shoop!<br/>uou can also dream up your own baby: tell me your idea, and I’ll create a unique plush friend just for you <br/>💛<br/>delivery included, of course :-)\n"
+      },
+      "images": [],
+      "name": "introduction"
+    },
+    {
+      "id": "4090412101",
+      "type": "product",
+      "title": "berry jam🫐💜",
+      "subtitle_html": "",
+      "price": "85-125",
+      "currency": "€",
+      "description_html": "omg SOO tasty<br/><br/>u can choose your own color!!!",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/2ec2a0aaa50cce808426.jpeg",
+          "preview": "assets/93421aeda9d9963bf4b8.jpeg"
+        }
+      ],
+      "space_top": 165,
+      "button_color": "#ff623b",
+      "description_size": 20
+    },
+    {
+      "id": "4672158201",
+      "type": "product",
+      "title": "omodoki doll",
+      "subtitle_html": "",
+      "price": "95",
+      "currency": "€",
+      "description_html": "little doll with YOUR design &lt;3",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/bdbe1d0bc75785004f3c.jpeg",
+          "preview": "assets/9b62da82bc4a0a85baf9.jpeg"
+        }
+      ],
+      "space_top": 120,
+      "button_color": "#ff8562",
+      "description_size": 20
+    },
+    {
+      "id": "4090412601",
+      "type": "section",
+      "template": "sections/anchor.html",
+      "fields": {},
+      "images": [],
+      "name": "anchor-about",
+      "anchor": "about"
+    },
+    {
+      "id": "4752247701",
+      "type": "about"
+    }
+  ]
+}

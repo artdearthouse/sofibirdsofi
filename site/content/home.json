@@ -1,0 +1,311 @@
+{
+  "title": "SofiBirdPlush",
+  "description": "",
+  "social_image": "assets/b45aad5743585235c0c6.jpeg",
+  "sections": [
+    {
+      "id": "3232792701",
+      "type": "menu",
+      "links": [
+        {
+          "label": "who am I",
+          "href": "#about"
+        },
+        {
+          "label": "catalogue",
+          "href": "#shop"
+        },
+        {
+          "label": "commissions",
+          "href": "#builder"
+        },
+        {
+          "label": "plush gallery",
+          "href": "#gallery"
+        },
+        {
+          "label": "donation",
+          "href": "@donation"
+        }
+      ]
+    },
+    {
+      "id": "3232791201",
+      "type": "section",
+      "template": "sections/hero.html",
+      "fields": {
+        "title_html": "I create unique, handmade toys based on your ideas",
+        "descr_html": "create your own design or choose from the catalog"
+      },
+      "images": [
+        {
+          "src": "assets/a1bfda1e41341081bd1c.png",
+          "preview": "assets/dd75f1412cea53657d85.png",
+          "alt": ""
+        }
+      ],
+      "name": "hero",
+      "buttons": [
+        {
+          "label": "create your toy",
+          "href": "@bluesky"
+        }
+      ]
+    },
+    {
+      "id": "3232791401",
+      "type": "section",
+      "template": "sections/introduction.html",
+      "fields": {
+        "title_html": "\nshipping <br/><br/> ",
+        "descr_html": "\nFor plush toys and bags, shipping is already included in the price<br/>If you order ceramics or printed items — such as postcards, stickers, or posters — on their own, shipping is €15–25, depending on the destination and package size<br/>If you order them together with a toy or bag, shipping is still included in the price of the toy or bag💛\n"
+      },
+      "images": [],
+      "name": "shipping"
+    },
+    {
+      "id": "3232791501",
+      "type": "section",
+      "template": "sections/anchor.html",
+      "fields": {},
+      "images": [],
+      "name": "anchor-shop",
+      "anchor": "shop"
+    },
+    {
+      "id": "3232791701",
+      "type": "product",
+      "title": "13,5/15/22,5cm plush toys🫐",
+      "subtitle_html": " <span class=\"js-product-sku notranslate\" translate=\"no\">\nbody size\n</span> ",
+      "price": "85-125",
+      "currency": "€",
+      "description_html": "so fluffy and cute! don't hesitate to make your little one feel special :)<br/><br/>you can contact me with your own design or choose from what I already have available",
+      "button": {
+        "label": "explore ",
+        "href": "fur/"
+      },
+      "images": [
+        {
+          "src": "assets/2ec2a0aaa50cce808426.jpeg",
+          "preview": "assets/93421aeda9d9963bf4b8.jpeg"
+        }
+      ],
+      "space_top": 120,
+      "button_color": "#ff8562",
+      "description_size": 20
+    },
+    {
+      "id": "4090853601",
+      "type": "product",
+      "title": "sparrow bag!!!",
+      "subtitle_html": " <span class=\"js-product-sku notranslate\" translate=\"no\">\npin and carabiner not included — they’re mine! :,3\n</span> ",
+      "price": "150",
+      "currency": "€",
+      "description_html": "“the birds are seeking the sun, carrying flowers and songs”✨<br/><br/>This phrase is like a little title for everything I make. The birds came from a song, and the idea that a world without flowers and songs would slowly lose its mind came from a story that has stayed with me.<br/>To me, “flowers and songs” are the small joyful things that keep the earth alive: creativity, love, gentleness, and the things we make for each other. They are what protect the world from going mad.<br/>The birds searching for the sun are people like me — travelers looking for their own light, their own home, and the sun inside themselves. And the flowers and songs are what I try to give to the world along the way.<br/>I hope this bag carries a little of that with you too💛<br/><br/>Please note: the phrase is written in my native language, because it is a story about me. But if you’d like, I can embroider a different phrase for you — your own little reminder to keep close<br/><br/>",
+      "button": {
+        "label": "adopt",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/64bbe2c6ecc7bb7389fb.jpeg",
+          "preview": "assets/a7709b4da595001e8bcb.jpeg"
+        },
+        {
+          "src": "assets/4c9e622db8986b2a0065.jpeg",
+          "preview": "assets/88271caa4a64e393887f.jpeg"
+        },
+        {
+          "src": "assets/9041bc337fb61ce0e7b2.jpeg",
+          "preview": "assets/1659c3aa11e8c7b9dcc1.jpeg"
+        },
+        {
+          "src": "assets/2decf94ce3c25a44761c.jpeg",
+          "preview": "assets/382d7edc30e8281c4d29.jpeg"
+        },
+        {
+          "src": "assets/aaaa81a435c45f3c41f2.jpeg",
+          "preview": "assets/24ca5962b97466293b16.jpeg"
+        }
+      ],
+      "space_top": 165,
+      "button_color": "#ff8562",
+      "description_size": 16
+    },
+    {
+      "id": "4056560101",
+      "type": "product",
+      "title": "ceramic🌱",
+      "subtitle_html": "",
+      "price": "37-87",
+      "currency": "€",
+      "description_html": "my little clay babies",
+      "button": {
+        "label": "explore ",
+        "href": "ceramic/"
+      },
+      "images": [
+        {
+          "src": "assets/48c77d56ce4b1aadd235.jpeg",
+          "preview": "assets/a2294f09daf76d95c862.jpeg"
+        }
+      ],
+      "space_top": 165,
+      "button_color": "#ff623b",
+      "description_size": 20
+    },
+    {
+      "id": "4090894901",
+      "type": "product",
+      "title": "prints🌈",
+      "subtitle_html": "",
+      "price": "10-30",
+      "currency": "€",
+      "description_html": "here are all the little things I’ve drawn and turned into postcards, posters, and stickers :-) <br/>just small, happy pieces of my art to keep, send, or stick somewhere you’ll see them every day💛",
+      "button": {
+        "label": "explore",
+        "href": "prints/"
+      },
+      "images": [
+        {
+          "src": "assets/291e69dbbd09a7d1c153.jpeg",
+          "preview": "assets/eecd713e1e461f5ce46d.jpeg"
+        }
+      ],
+      "space_top": 165,
+      "button_color": "#ff623b",
+      "description_size": 20
+    },
+    {
+      "id": "4672023101",
+      "type": "product",
+      "title": "keychains🌊",
+      "subtitle_html": "",
+      "price": "40",
+      "currency": "€",
+      "description_html": "sweet little bird keychains",
+      "button": {
+        "label": "adopt ",
+        "href": "@bluesky"
+      },
+      "images": [
+        {
+          "src": "assets/737e64d31bf75b20ec70.jpeg",
+          "preview": "assets/daf2f0d20e1410cfadc6.jpeg"
+        },
+        {
+          "src": "assets/306a267c1d7d1d8eb8d4.jpeg",
+          "preview": "assets/3db26cb6874112b19f90.jpeg"
+        }
+      ],
+      "space_top": 165,
+      "button_color": "#ff623b",
+      "description_size": 20
+    },
+    {
+      "id": "3242262201",
+      "type": "section",
+      "template": "sections/anchor.html",
+      "fields": {},
+      "images": [],
+      "name": "anchor-builder",
+      "anchor": "builder"
+    },
+    {
+      "id": "3242932901",
+      "type": "section",
+      "template": "sections/commissions.html",
+      "fields": {
+        "title_html": "COMMISSIONS are OPEN <br/><br/><a href=\"@bluesky\" rel=\"noreferrer noopener\" target=\"_blank\">feel free to contact me!</a>"
+      },
+      "images": [
+        {
+          "src": "assets/6d46836e40c84ff08972.jpeg",
+          "preview": "assets/d8933bfacebdd3901188.jpeg",
+          "alt": ""
+        }
+      ],
+      "name": "commissions"
+    },
+    {
+      "id": "3242622601",
+      "type": "section",
+      "template": "sections/anchor.html",
+      "fields": {},
+      "images": [],
+      "name": "anchor-gallery",
+      "anchor": "gallery"
+    },
+    {
+      "id": "3241439101",
+      "type": "gallery",
+      "images": [
+        {
+          "src": "assets/09e2917a3aaa294b9e53.jpeg",
+          "preview": "assets/3d5fce129d3ec9845d8c.jpeg"
+        },
+        {
+          "src": "assets/9f0b259de2e2304e44a8.jpeg",
+          "preview": "assets/e9e8fca06294661701ea.jpeg"
+        },
+        {
+          "src": "assets/4b6dc716fa0f1fb35952.jpeg",
+          "preview": "assets/868da6deca6811d6690d.jpeg"
+        },
+        {
+          "src": "assets/254e0c65ab0532cade5e.jpeg",
+          "preview": "assets/9d7e03c9906426dd1d87.jpeg"
+        },
+        {
+          "src": "assets/f0c02ab14dee90436321.jpeg",
+          "preview": "assets/5feae71caabc3e0a33e7.jpeg"
+        },
+        {
+          "src": "assets/2b3e8d91cb69fc58e24a.jpeg",
+          "preview": "assets/16bd27f61f9ab96a8f20.jpeg"
+        },
+        {
+          "src": "assets/db72f967bd30533f449c.jpeg",
+          "preview": "assets/be0b8318c766488ab873.jpeg"
+        },
+        {
+          "src": "assets/ac17b3fd26fe24a3b5d8.jpeg",
+          "preview": "assets/0fa707e21bf6eb759ad4.jpeg"
+        },
+        {
+          "src": "assets/c5e7840d55b510f9457f.jpeg",
+          "preview": "assets/637986383e05bd596b68.jpeg"
+        },
+        {
+          "src": "assets/fb170d9269c3fbc070cd.jpeg",
+          "preview": "assets/2fbd2b805ff80c1845ab.jpeg"
+        },
+        {
+          "src": "assets/a2df6b1b6a0d693e22df.jpeg",
+          "preview": "assets/1b90cd46c264f818e448.jpeg"
+        },
+        {
+          "src": "assets/0ebc5b5b4b7188ab8af2.jpeg",
+          "preview": "assets/63ebcd41b71b2e6b7acd.jpeg"
+        },
+        {
+          "src": "assets/c0fc620d6c29492fb9e5.jpeg",
+          "preview": "assets/f3797e4fb8d9a015c19b.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "3232791301",
+      "type": "section",
+      "template": "sections/anchor.html",
+      "fields": {},
+      "images": [],
+      "name": "anchor-about",
+      "anchor": "about"
+    },
+    {
+      "id": "4752225401",
+      "type": "about"
+    }
+  ]
+}

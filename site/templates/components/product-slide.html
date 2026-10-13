@@ -1,0 +1,9 @@
+<div class="t-slds__item{% if slide_loop.first %} t-slds__item_active{% endif %}" data-slide-index="{{ slide_loop.index }}">
+<div class="t-slds__wrapper" itemscope="" itemtype="http://schema.org/ImageObject">
+<meta content="{{ image.src|asset }}" itemprop="image"/>
+<div aria-label="{{ image.alt|default(section.title) }}" bgimgfield="gi_img__{{ slide_loop.index0 }}" class="t-slds__imgwrapper" data-img-zoom-url="{{ image.src|asset }}" data-zoom-target="{{ slide_loop.index0 }}" data-zoomable="yes">
+<div class="t-slds__bgimg t-bgimg{% if slide_loop.first %} js-product-img{% endif %}" data-original="{{ image.src|asset }}" style="padding-bottom:100%; background-image: url('{{ image.preview|default(image.src)|asset }}');">
+</div>
+</div>
+</div>
+</div>
